@@ -17,3 +17,11 @@
 .cant-see-me {
 	display: none;
 }
+
+body {
+	background-color: #2e2e2e;
+}
+
+.small-text {
+	font-size: 11px;
+}
