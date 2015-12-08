@@ -32,7 +32,7 @@
 		<div class="panel-body">
 			<% @following_tweets.each do |tweet| %>
 			<p>
-				<strong><%= link_to tweet.user.username, user_profile_path(id: tweet.user.id) %></strong><br>
+				<strong>@<%= link_to tweet.user.username, user_profile_path(id: tweet.user.id) %></strong><br>
 				<%= tweet.message %>
 			</p>
 			<% end %>
